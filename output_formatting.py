@@ -18,3 +18,12 @@ print("09", "12", "2016", sep="-")
 # another example
 print("pratik", "geeksforgeeks", sep="@")
 
+# using f-string
+name = "Sonam Narula"
+age = 19
+print(f"Hello, My name is {name} and I'm {age} years old.")
+
+# Using % Operator
+num = int(input("Enter a value: "))
+add = num + 5
+print("The sum is %d" % add)
